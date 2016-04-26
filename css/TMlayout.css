@@ -1,0 +1,417 @@
+/*!
+ * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ *
+ * Theme Name: Barsoom
+ * Theme URI: http://www.jogres.com
+ * Description: A Responsive Underconstruction Theme For You
+ * Author: Jogres
+ * Author URI: http://www.jogres.com
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+body {
+	color: #fff;
+	font-family: 'Arvo', sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arvo', sans-serif;
+}
+
+.bg {
+	background: none repeat scroll 0 0 rgba(255, 255, 255);
+}
+
+/* HEADER */
+
+.header {
+	color: #fff;
+	display: block;
+	margin: 0;
+	padding: 5% 0 10%;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+}
+.logo {
+	margin: 0 auto 10%;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.logo a {
+	display: inline-block;
+	margin: 0 0 40px 0;
+}
+.logo p {
+	font-size: 120px;
+	margin: 20px 0;
+	line-height: 120px;
+}
+.time {
+	color: #000;
+	display: block;
+	font-size: 20px;
+	line-height: 18px;
+	margin: 0;
+	position: relative;
+}
+.time span {
+	display: inline-block;
+	font-size: 120px;
+	line-height: 120px;
+	margin: 0 0 20px;
+}
+ul.time {
+    list-style: none outside none;
+    margin: 40px 0;
+}
+ul.time li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.down {
+	bottom: 5%;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.down a i {
+	color: #fff;
+	height: 50px;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.down a:hover i{
+	height: 60px;
+	margin-top: -10px;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.down a:focus {
+	outline: none;
+}
+
+/* END HEADER */
+
+/* SUBSCRIBE */
+
+.subscribe {
+	background: #222;
+	color: #fff;
+}
+.subscribe-form {
+	margin: 100px 0;
+}
+.subscribe-form i {
+	margin: 0 0 20px 0;
+}
+.subscribe-form form {
+	margin: 30px 0 0 0;
+}
+.subscribe input[type=text] { 
+	background: #fff;
+	border: 1px solid #dddddd;
+	color: #888;
+	padding: 5px;
+	width: 40%;
+	}
+.subscribe input[type=submit] {
+	background: #3DBEED;
+	border: 0;
+	color: #000;
+	cursor: pointer;
+	height: 30px;
+	margin-left: 5px; 
+	padding: 5px;
+	position: relative; 
+	width: 100px;
+	}
+	
+/* END SUBSCRIBE */
+
+/* CONTACT */
+
+.contact {
+	color: #fff;
+	display: block;	
+	margin: 0;
+	padding: 100px 0;
+	position: relative;
+	width: 100%;
+}
+.contact-details {
+	font-size: 20px;
+	margin: 30px 0;
+}
+.contact-details i {
+	font-size: 18px;
+	margin-right: 10px;
+}
+.contact-details a{
+	color: #fff;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.contact-details a:hover{
+	color: #3DBEED;
+	text-decoration: none;
+}
+.contact_form {
+	margin: 30px 0 0;
+}
+.contact_form label {
+	float: left;
+	font-weight: normal;
+	height: 25px;
+	margin: 5px 0;
+	padding: 5px 0 0;
+	width: 100px;
+}
+.contact_form input {
+	background: #e6e6e6;
+	border: none;
+	color: #444;
+	float: left;
+	font-weight: normal;
+	margin: 5px 0;
+	padding: 10px;
+	width: 100%;
+}
+.contact_form textarea {
+	background: #e6e6e6;
+	border: none;
+	color: #444;
+	margin: 5px 0;
+	padding: 10px;
+	width: 100%;
+}
+.contact_form input[type="submit"] {
+	background: #3DBEED;
+	border: 0;
+	color: #000;
+	cursor: pointer;
+	margin: 5px 0;
+	padding: 6px;
+	width: 100px;
+}
+.contact_form input[type="submit"] a:hover{
+	background: #000;	
+}
+
+/* END CONTACT */
+
+/* FOOTER */
+
+.footer {
+    background: #222;
+	color: #fff;
+	display: block;
+	margin: 0;
+	padding: 100px 0;
+	position: relative;
+	width: 100%;
+	word-spacing:5px;
+}
+.socmed {
+	margin: 10px 0 40px;
+	display: inline-block;
+}
+.socmed i{
+	margin: 0 10px;
+}
+.socmed a{
+	color: #fff;
+	text-decoration: none;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.socmed a:hover{
+	color:#3DBEED;
+}
+.copy {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: 10px 0;
+	line-height: 14pt;
+}
+.copy a {
+	color: #fff;
+	text-decoration: none;
+	-o-transition:all .3s;
+	-moz-transition:all .3s;
+	-webkit-transition:all .3s;
+	-ms-transition:all .3s;
+}
+.copy a:hover {
+	color:#3DBEED;
+}
+
+/* END FOOTER */
+
+/* #Media Queries
+================================================== */
+	
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (min-width: 1200px) {
+	}
+
+	@media only screen and (min-width: 976px) and (max-width: 1199px) {
+.time span {
+	font-size: 100px;
+	line-height: 100px;
+}
+.contact-details {
+	margin: 30px 0 0;
+}
+	}
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 976px) {
+.time span {
+	font-size: 100px;
+	line-height: 100px;
+}
+.contact-details {
+	margin: 30px 0 0;
+}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+h1, .h1 { font-size: 30px;}
+h2, .h2 { font-size: 26px;}
+h3, .h3 { font-size: 20px;}
+h4, .h4 { font-size: 16px;}
+h5, .h5 { font-size: 12px;}
+h6, .h6 { font-size: 10px;}
+.header {
+	padding: 2% 0 5%;
+}
+.logo {
+	margin: 0 auto 5%;
+}
+.countdown {
+	padding: 50px 0;
+}
+.time span {
+	font-size: 75px;
+	line-height: 75px;
+}
+ul.time li {
+	margin: 0 15px;
+}
+.subscribe {
+	margin: 0;
+	padding: 50px 0;
+}
+.contact {
+	padding: 50px 0;
+}
+.contact-details {
+	margin: 30px 0 0;
+}
+.footer {
+	padding: 50px 0;
+}
+.socmed {
+	margin: 10px 0 20px;
+}
+.socmed i {
+	font-size: 2em;
+	margin: 0 5px;
+}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 480px) {
+h1, .h1 { font-size: 30px;}
+h2, .h2 { font-size: 26px;}
+h3, .h3 { font-size: 20px;}
+h4, .h4 { font-size: 16px;}
+h5, .h5 { font-size: 12px;}
+h6, .h6 { font-size: 10px;}
+.logo a {
+	margin: 0;
+}
+.logo p {
+	font-size: 100px;
+	line-height: 100px;
+	margin: 10px 0;
+}
+.down {
+	display: none;
+}
+.countdown {
+	padding: 50px 0;
+}
+.time span {
+	font-size: 68px;
+	line-height: 68px;
+}
+ul.time li {
+	margin: 0 15px 15px;
+}
+.subscribe {
+	margin: 0;
+	padding: 50px 0;
+}
+.contact {
+	padding: 50px 0;
+}
+.contact-details {
+	font-size: 18px;
+	margin: 30px 0 0;
+}
+.contact-details i {
+	font-size: 18px;
+	margin-right: 5px;
+}
+.footer {
+	padding: 50px 0;
+}
+.socmed {
+	margin: 10px 0 20px;
+}
+.socmed i {
+	font-size: 1.8em;
+	margin: 0 2px;
+}
+	}
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file 
+		Just create a "fonts" folder at the root, 
+		copy your FontName into code below and remove
+		comment brackets */
+		
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
+*/

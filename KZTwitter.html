@@ -1,20 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Untitled Document</title>
 
-<script type="text/javascript" charset="utf-8">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Device Ready Example</title>
 
-// Wait for PhoneGap to load
-// 
-document.addEventListener("deviceready", onDeviceReady, false);
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
 
-// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
-//
-function onDeviceReady() {
-    checkConnection();
-}
+    // Wait for device API libraries to load
+    //
+    function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+
+ checkConnection();
+
+ref = window.open('https://twitter.com/kaizerchiefs', '_blank', 'location=no,toolbar=no');
+    }
+
+
 
 function checkConnection() {
 
@@ -34,33 +42,10 @@ alert("Please check your internet connectivity and try again");
 }
 }
 
-
-</script>
-
-
-<script type="text/javascript">
-    window.onload = function()
-    {
-      var url, hdiv = document.getElementById("hiddendivid");
-
-      if (hdiv != null)
-        url = hdiv.innerText || hdiv.textContent;
-
-      if (url)
-      {
-        if (top == self)
-          window.location = url;
-        else
-          top.updateWindowWithContentsOfUrl(self, url);
-      }
-    }
-</script>
-
-</head>
-
-<body>
-
-  <div id="hiddendivid" style="display:none">https://twitter.com/kaizerchiefs</div>
-
-</body>
+    </script>
+  </head>
+  <body onload="onLoad()">
+  </body>
 </html>
+
+
